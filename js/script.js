@@ -36,23 +36,34 @@ for (var i = 0; i < paragraphs.length; i++) {
 
 var resultsContainer = document.querySelector(".results")
 resultsContainer.innerHTML = "<p>New paragraph"
-console.log(typeof resultsContainer)
+//TO FINISH
+
+//Question 7 //
+
+function logNames(list){
+    for (var i = 0; i < list.length; i++){
+        var currentItem = list[i]
+        console.log(currentItem.name)
+    }      
+}
+
+import {cats} from "./secondScript.js"
+
+logNames(cats)
 
 
+// Question 8 //
 
-
-
-
-const cats = [
-    {
-        name: "Blob",
-        age: 10
-    },
-    {
-        name: "Harold",
-    },
-    {
-        name: "Blurt",
-        age: 21
+function createCats(cats){
+    for (var i = 0; i< cats.length; i++){
+        
     }
-];
+}
+
+
+
+
+
+
+
+
